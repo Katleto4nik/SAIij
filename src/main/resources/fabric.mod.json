@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "kwintmaker",
+  "version": "${version}",
+  "name": "KwintMaker",
+  "authors": [
+    "GAB_DAB2025"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "net.gabdab.kwintmaker.KwintMakerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "icon": "assets/kwintmaker/icon.png"
+}
